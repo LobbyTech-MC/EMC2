@@ -137,7 +137,11 @@ public class QGPCapacitor extends SlimefunItem {
         return distributeAmong(blocks, overflow);
     }
 
-    /**
+    private long getCapacity() {
+		return capacity;
+	}
+
+	/**
      * Removes {@code amount} Quark-Gluon Plasma equally from capacitors adjacent to the source block
      *
      * @param sourceBlock the block to remove around

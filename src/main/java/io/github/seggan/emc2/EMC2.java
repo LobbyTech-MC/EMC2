@@ -65,4 +65,9 @@ public final class EMC2 extends AbstractAddon {
     public static EMC2 inst() {
         return instance;
     }
+
+	public boolean isSlimeTinkerInstalled() {
+		// TODO Auto-generated method stub
+		return slimeTinkerInstalled;
+	}
 }

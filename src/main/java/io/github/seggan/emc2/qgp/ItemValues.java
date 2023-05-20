@@ -357,4 +357,9 @@ public class ItemValues {
         }
     }
 
+	public Map<Material, Long> getValues() {
+		// TODO Auto-generated method stub
+		return values;
+	}
+
 }
